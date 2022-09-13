@@ -1,0 +1,100 @@
+*{
+    margin: 0; 
+    font-family: 'Gilroy', sans-serif;  
+}
+nav{
+    height: 120px;
+    background-color: black;
+    display: flex   ;
+    color: white;
+    justify-content: space-around;
+    
+}
+nav a {
+    margin-top: 50px;
+    color: white;
+    text-decoration: none;
+    font-weight:400;
+  
+}
+.kit{
+    display: none;
+    
+}
+#kits:hover + .kit{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding-top: 50px;
+    margin-top: 120px;
+    width: 100%;
+    margin-left:-0px;
+    position: absolute;
+    background-color: black;
+    padding-bottom: 20px;
+    letter-spacing: normal;
+}
+
+#kits:hover + .kit + ul{
+    width: 10px;
+    margin-left: -100px;
+
+}
+
+#train{
+    
+}
+.train-drop{
+    display: none;
+}
+#train:hover + .train-drop{
+    cursor: pointer;
+    display: flex;
+    padding-left: 50px;
+    text-align: left;
+    padding-top: 50px;
+    margin-top: 120px;
+    width: 100%;
+    margin-left:-0px;
+    position: absolute;
+    background-color: black;
+    padding-bottom: 20px;
+    letter-spacing: normal;     
+}
+
+.material-symbols-outlined {
+    margin-top: 45px;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+ /* Vertical Horizontal Line */
+  .vl {
+    border-left: 1px solid white;
+    height: 120px;
+  }
+.options{
+    margin-right: 30px;
+    display: flex   ;
+    justify-content: space-around;
+
+    
+}
+#logo{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 200px;
+    height: 90px;
+}
+
+.icons{
+    justify-content: space-between;
+}
+
+.sec01 h5{
+    background-color: #e8b972;
+ 
+}
