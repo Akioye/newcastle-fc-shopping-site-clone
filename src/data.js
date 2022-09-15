@@ -1,4 +1,6 @@
-export default  [
+const data = 
+    {    
+       products: [
     {
         id:1,
         img:'https://cdn.shopify.com/s/files/1/0535/5107/1386/products/c97e4344-f639-4ecc-8c70-be61839561db_2000x.png?v=1660058636',
@@ -18,3 +20,5 @@ export default  [
         price:"₦‌26,900"
     }
 ]
+}
+export default data

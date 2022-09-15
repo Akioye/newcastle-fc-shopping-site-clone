@@ -7,14 +7,14 @@ import {HiSearch} from "react-icons/hi";
 export default function Header (){
 return(
 <div className="Header">
-    <nav>
+    <nav className="flex justify-around bg-black ;">
 
 
     <button href="/"><img href="/" id="logo" src="https://cdn.shopify.com/s/files/1/0535/5107/1386/t/84/assets/CASTORE_NUFC_LANDSCAPE_300x.png?v=117929071967020549901660920043" alt="" /> 
     </button>
-    <a href="/product">NEW ARRIVALS</a>
+    <a href="/products">NEW ARRIVALS</a>
     <a id="kits" href="http://">KITS</a> 
-    <div className="kit">
+    <div className="kit  #kits-hover:bg-black w-96">
         
         <ul>
         <h4> Home Kit</h4>
@@ -67,8 +67,32 @@ return(
     
     <span className="material-symbols-outlined">person</span>
     <div className="vl"></div>
-    <a href="/cart"><span  className="material-symbols-outlined" >shopping_bag</span>
+    <a href="/cart"  id='shopbag'><span  className="material-symbols-outlined" id='shopbag' >shopping_bag</span>
     </a>
+    <div className="cart w-96 mt-32">
+        <ul>
+        <h1>Shopping Bag</h1>
+        <div className=" flex justify-around w-64 ">
+            <button className="p-2  w-24" id='view'>View Bag</button>
+            <button href="/cart" className="check p-2 bg-blue-900 w-32" id='check'>Checkout now</button>
+        </div>
+        <div className=" flex justify-between w-64 ">
+            <h4>{2} items</h4>
+            <h4>Subtotal: {}</h4>
+        </div>
+        <hr></hr>
+        <div className=" flex justify-around w-64 ">
+            <img src=''></img>
+            <div>
+                {/* <h5>{title}</h5> */}
+                {/* <p>{description}</p> */}
+                <p>QTY:{1}</p>
+            </div>
+            {/* {price} */ }
+            5000
+        </div>
+        </ul>
+    </div>
     <div className="vl"></div>
     <span className="material-symbols-outlined">flag</span>
     

@@ -3,11 +3,11 @@
     font-family: 'Gilroy', sans-serif;  
 }
 nav{
-    height: 120px;
+    /* height: 120px;
     background-color: black;
-    display: flex   ;
+    display: flex   ; */
     color: white;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     
 }
 nav a {
@@ -34,7 +34,7 @@ nav a {
     background-color: black;
     padding-bottom: 20px;
     letter-spacing: normal;
-}
+} 
 
 #kits:hover + .kit + ul{
     width: 10px;
@@ -83,6 +83,33 @@ nav a {
 
     
 }
+
+.cart{
+    display: none;
+}
+
+#shopbag:hover + .cart{
+      cursor: pointer;
+    display: flex;
+    padding-left: 50px;
+    text-align: left;
+    
+    margin-top: 120px;
+   
+    margin-left:60%;
+    position: absolute;
+    background-color: white;
+    padding-bottom: 20px;
+    color: black;
+    letter-spacing: normal;    
+}
+
+#view{
+    border: solid blue 1px;
+    color: blue;
+    
+}
+
 #logo{
     margin-left: 10px;
     margin-top: 20px;

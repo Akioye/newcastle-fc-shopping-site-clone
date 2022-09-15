@@ -2,3 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+h1 {
+    font-size: 1.5rem;
+  }
+
+.block {
+    background-color: #e0e0e0;
+    padding: 1rem;
+    margin: 1rem 1rem;
+    width: 60rem;
+    border-radius: 0.5rem;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+img.small {
+    max-height: 12rem;
+  }
